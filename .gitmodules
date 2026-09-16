@@ -1,8 +1,10 @@
 [submodule "unpack/downloader"]
 	path = unpack/downloader
-	url = https://github.com/gf-data-tools/gf-resource-downloader
+	url = https://github.com/hmiranda-pt/gf-resource-downloader
   ignore = dirty
+  branch = hm-main
 [submodule "unpack/gf-data-us"]
 	path = unpack/gf-data-us
-	url = https://github.com/gf-data-tools/gf-data-us
+	url = https://github.com/hmiranda-pt/gf-data-us
   ignore = dirty
+  branch = hm-main
