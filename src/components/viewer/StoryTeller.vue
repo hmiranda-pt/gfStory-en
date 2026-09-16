@@ -22,6 +22,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   (event: 'menu'): void,
   (event: 'text'): void,
+  (event: 'ended'): void,
 }>();
 
 const story = new StoryInterpreter();
@@ -201,6 +202,11 @@ async function updateStory(chunk?: string) {
 }
 updateStory(props.chunk);
 watch(() => props.chunk, updateStory);
+watch(ended, (v) => {
+  if (v) {
+    emit('ended');
+  }
+});
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let autoHandle: any = 0;

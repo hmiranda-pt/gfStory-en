@@ -52,6 +52,13 @@ const showMenu = ref(false);
 
 const value = ref('');
 const menu = ref<MenuInst>();
+const storyList = ref<InstanceType<typeof StoryList>>();
+function onStoryEnded() {
+  const next = storyList.value?.nextLeaf(value.value);
+  if (next) {
+    value.value = next;
+  }
+}
 watch(() => value.value, (file) => {
   menu.value?.showOption(file);
   const url = new URL(window.location.toString());
@@ -94,7 +101,7 @@ const showText = ref(false);
         placement="left" display-directive="show"
       >
         <n-drawer-content title="Story Selection" :native-scrollbar="false">
-          <story-list v-model:value="value" set-title-when-selected />
+          <story-list ref="storyList" v-model:value="value" set-title-when-selected />
           <slot name="footer" id="footer">
             <p>
               Welcome to the story reader for a video game <a href="https://gf.sunborngame.com/" target="_blank">Girls' Frontline</a> (referred as Dolls' Frontline in some regions) developed by MICA Team. This is fanmade project, and is in no way affiliated with MICA Team.
@@ -128,7 +135,7 @@ const showText = ref(false);
       </n-drawer>
       <story-teller
         menu-button text-button
-        @menu="showMenu = true" @text="showText = true"
+        @menu="showMenu = true" @text="showText = true" @ended="onStoryEnded"
         :chunk="chunk"
         :loading="loading"
       >

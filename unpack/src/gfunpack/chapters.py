@@ -42,6 +42,7 @@ _chapter_file_name_regex = re.compile("^(-?\\d+)-")
 T = typing.TypeVar("T")
 
 
+@dataclass_json(undefined=Undefined.EXCLUDE)
 @dataclasses.dataclass
 class ChapterInfo:
     id: int = 0
@@ -53,6 +54,7 @@ class ChapterInfo:
     order: int = 1000000
 
 
+@dataclass_json(undefined=Undefined.EXCLUDE)
 @dataclasses.dataclass
 class EventStoryInfo:
     id: int = 0
@@ -78,6 +80,7 @@ class MissionInfo:
     name: str = ""
 
 
+@dataclass_json(undefined=Undefined.EXCLUDE)
 @dataclasses.dataclass
 class UpgradingEvent:
     id: str = "0"
@@ -87,6 +90,7 @@ class UpgradingEvent:
     prize_id: str = ""
 
 
+@dataclass_json(undefined=Undefined.EXCLUDE)
 @dataclasses.dataclass
 class BondingChapter:
     id: int = 0
@@ -105,6 +109,7 @@ class BondingChapter:
     milestone5_reward: str = ""
 
 
+@dataclass_json(undefined=Undefined.EXCLUDE)
 @dataclasses.dataclass
 class BondingEvent:
     id: int = 0

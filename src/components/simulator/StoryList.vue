@@ -23,6 +23,29 @@ import jsonChapterPresets from '../../assets/chapters.json';
 
 const chapterPresets: GfChaptersInfo = jsonChapterPresets;
 
+const CHAPTER_ORDER: ChapterType[] = [
+  'main', 'event', 'colab', 'upgrading', 'bonding',
+  'anniversary', 'anniversary5', 'anniversary4', 'anniversary3',
+  'help', 'skin',
+];
+
+// Ordered list of real story file keys (leaves) following menu order.
+// Excludes disabled stories (files.length === 0) and the `map|` stage-map entries.
+const leafKeys: string[] = CHAPTER_ORDER.flatMap((label) => chapterPresets[label]
+  .flatMap((chapter) => chapter.stories
+    .filter((story) => story.files.length > 0)
+    .flatMap((story) => story.files.map((file) => (typeof file === 'string' ? file : file[0])))));
+
+function nextLeaf(current: string): string | undefined {
+  const i = leafKeys.indexOf(current);
+  if (i === -1) {
+    return undefined;
+  }
+  return i + 1 < leafKeys.length ? leafKeys[i + 1] : undefined;
+}
+
+defineExpose({ nextLeaf });
+
 const props = defineProps<{
   value: string,
   setTitleWhenSelected?: boolean,
