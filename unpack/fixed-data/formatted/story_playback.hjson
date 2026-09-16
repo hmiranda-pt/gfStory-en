@@ -95,7 +95,7 @@
     type: 2
     tag: EP.
     order: 10
-    campaign_sub_name: CH.01 The Wolves Gather;CH.02 Lighting Curfew;CH.03 Operation Homecoming;CH.00 Down the Rabbit Hole
+    campaign_sub_name: CH.01 The Wolves Gather;CH.02 Lightning Curfew;CH.03 Operation Homecoming;CH.00 Down the Rabbit Hole
   }
   {
     id: 11
@@ -125,7 +125,7 @@
     type: 2
     tag: EP.
     order: 13
-    campaign_sub_name: CH.01 Cognitive Conundrum;CH.02 Hyperbolic Function;CH.03 Relative Behavior
+    campaign_sub_name: CH.01 Cognitive Conundrum;CH.02 Hyperbolic Function;CH.03 Relative Behavior;CH.00 Imaginary Maze
   }
   {
     id: 14
@@ -165,7 +165,7 @@
     type: 2
     tag: EP.
     order: 17
-    campaign_sub_name: CH.01 Daybreak;CH.02 Convergence;CH.03 Surviving Doomsday;CH.04 Exile;CH.00 Hurricane Rescue
+    campaign_sub_name: CH.01 On the Horizon;CH.02 Convergence;CH.03 Surviving Doomsday;CH.04 Exile;CH.00 Hurricane Rescue
   }
   {
     id: 18
@@ -195,7 +195,7 @@
     type: 2
     tag: EP.
     order: 20
-    campaign_sub_name: CH.01 Tallinn;CH.02 Ghost Town;CH.03 Immolation;CH.04 Connexion;CH.05 Queen-of-the-Night;CH.00 Flowers of the End
+    campaign_sub_name: CH.01 Tallinn;CH.02 Ghost Town;CH.03 Immolation;CH.04 Connexion;CH.05 Queen of the Night;CH.00 Flowers of the End
   }
   {
     id: 21
@@ -235,7 +235,7 @@
     type: 2
     tag: EP.
     order: 24
-    campaign_sub_name: CH.01;CH.02;CH.03;CH.04;CH.05;CH.06
+    campaign_sub_name: CH.01 Departure Time;CH.02 Pollinosis;CH.03 Ghost Sisters;CH.04 Operation Snake Eater;CH.05 Infernal Enlightenment;CH.06
   }
   {
     id: 25
@@ -255,7 +255,7 @@
     type: 2
     tag: EP.
     order: 26
-    campaign_sub_name: CH.01 Entropic Reduction;CH.02 Reborn Starlight;CH.03 Recurrent Reversal;CH.04 Starfall;CH.05 Decline Into Darkness;CH.06 Chaotic Finale
+    campaign_sub_name: CH.01 Decreasing Entropy;CH.02 Rekindling Starlight;CH.03 Reversing Entropy;CH.04 Falling Star;CH.05 Darkest Decline;CH.06 Endgame Chaos
   }
   {
     id: 27
@@ -285,7 +285,7 @@
     type: 2
     tag: EP.
     order: 30
-    campaign_sub_name: CH.00;CH.01;CH.02;CH.03
+    campaign_sub_name: CH.00 Sensitive Site Exploration;CH.01 The Room;CH.02 Lab Level;CH.03 Tower
   }
   {
     id: 30
@@ -475,7 +475,7 @@
     type: 2
     tag: EP.
     order: 39
-    campaign_sub_name: Scene 1 Memory Log;Scene 2 Adventure Log;Scene 3 Returner's Log
+    campaign_sub_name: Scene 1 Memory Log;Scene 2 Adventure Log;Scene 3 Returner's Log;Epilogue
   }
   {
     id: 49
