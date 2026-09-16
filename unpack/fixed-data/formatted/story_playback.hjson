@@ -1,0 +1,510 @@
+[
+  {
+    id: 1
+    name: Chapter 0
+    type: 1
+    tag: EP.
+    order: 1
+    campaign_sub_name: Normal
+  }
+  {
+    id: 2
+    story_campaign_id: "1"
+    name: Chapter 1
+    chapter: "1"
+    type: 1
+    tag: EP.
+    order: 2
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 3
+    story_campaign_id: "2"
+    name: Chapter 2
+    chapter: "2"
+    type: 1
+    tag: EP.
+    order: 3
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 4
+    story_campaign_id: "3"
+    name: Chapter 3
+    chapter: "3"
+    type: 1
+    tag: EP.
+    order: 4
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 5
+    story_campaign_id: "4"
+    name: Chapter 4
+    chapter: "4"
+    type: 1
+    tag: EP.
+    order: 5
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 6
+    story_campaign_id: "5"
+    name: Chapter 5
+    chapter: "5"
+    type: 1
+    tag: EP.
+    order: 6
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 7
+    story_campaign_id: "-1"
+    name: Operation Cube
+    chapter: "5.5"
+    type: 2
+    tag: EP.
+    order: 7
+    campaign_sub_name: CH.01 Operation Cube
+  }
+  {
+    id: 8
+    story_campaign_id: "6"
+    name: Chapter 6
+    chapter: "6"
+    type: 1
+    tag: EP.
+    order: 8
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 9
+    story_campaign_id: "7"
+    name: Chapter 7
+    chapter: "7"
+    type: 1
+    tag: EP.
+    order: 9
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 10
+    story_campaign_id: "-2,-3,-4,-5"
+    name: Arctic Warfare
+    chapter: "7.5"
+    type: 2
+    tag: EP.
+    order: 10
+    campaign_sub_name: CH.01 The Wolves Gather;CH.02 Lighting Curfew;CH.03 Operation Homecoming;CH.00 Down the Rabbit Hole
+  }
+  {
+    id: 11
+    story_campaign_id: "-7"
+    name: Blindfold Theorem
+    chapter: "7.75"
+    type: 2
+    tag: EP.
+    order: 11
+    campaign_sub_name: CH.02 Blindfold Theorem
+  }
+  {
+    id: 12
+    story_campaign_id: "8"
+    name: Chapter 8
+    chapter: "8"
+    type: 1
+    tag: EP.
+    order: 12
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 13
+    story_campaign_id: "-10,-11,-12,-13"
+    name: Deep Dive
+    chapter: "8.5"
+    type: 2
+    tag: EP.
+    order: 13
+    campaign_sub_name: CH.01 Cognitive Conundrum;CH.02 Hyperbolic Function;CH.03 Relative Behavior
+  }
+  {
+    id: 14
+    story_campaign_id: "9"
+    name: Chapter 9
+    chapter: "9"
+    type: 1
+    tag: EP.
+    order: 14
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 15
+    story_campaign_id: "10"
+    name: Chapter 10
+    chapter: "10"
+    type: 1
+    tag: EP.
+    order: 15
+    campaign_sub_name: Normal;Emergency;Night
+  }
+  {
+    id: 16
+    story_campaign_id: "-16,-17,-18"
+    name: Singularity
+    chapter: "10.5"
+    type: 2
+    tag: EP.
+    order: 16
+    campaign_sub_name: CH.01 Great Retreat;CH.02 Second Moon;CH.03 Endgame
+  }
+  {
+    id: 17
+    story_campaign_id: "-24,-25,-26,-27,-28"
+    name: Continuum Turbulence
+    chapter: "10.75"
+    type: 2
+    tag: EP.
+    order: 17
+    campaign_sub_name: CH.01 Daybreak;CH.02 Convergence;CH.03 Surviving Doomsday;CH.04 Exile;CH.00 Hurricane Rescue
+  }
+  {
+    id: 18
+    story_campaign_id: "11"
+    name: Chapter 11
+    chapter: "11"
+    type: 1
+    tag: EP.
+    order: 18
+    campaign_sub_name: Normal;Emergency
+  }
+  {
+    id: 19
+    story_campaign_id: "-31"
+    name: Isomer
+    chapter: "11.5"
+    type: 2
+    tag: EP.
+    order: 19
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 20
+    story_campaign_id: "-33"
+    name: Shattered Connexion
+    chapter: "11.75"
+    type: 2
+    tag: EP.
+    order: 20
+    campaign_sub_name: CH.01 Tallinn;CH.02 Ghost Town;CH.03 Immolation;CH.04 Connexion;CH.05 Queen-of-the-Night;CH.00 Flowers of the End
+  }
+  {
+    id: 21
+    story_campaign_id: "12"
+    name: Chapter 12
+    chapter: "12"
+    type: 1
+    tag: EP.
+    order: 21
+    campaign_sub_name: Normal;Emergency
+  }
+  {
+    id: 22
+    story_campaign_id: "-36"
+    name: Polarized Light
+    chapter: "12.5"
+    type: 2
+    tag: EP.
+    order: 22
+    campaign_sub_name: CH.01 Unpolarized Light Source;CH.02 Bifocal Prism;CH.03 Polarized;CH.04 Crystal Recasting;CH.05 Visible Horizon
+  }
+  {
+    id: 23
+    story_campaign_id: "13"
+    name: Chapter 13
+    chapter: "13"
+    type: 1
+    tag: EP.
+    order: 23
+    campaign_sub_name: Normal;Emergency
+  }
+  {
+    id: 24
+    story_campaign_id: "-41"
+    name: Dual Randomness
+    chapter: "13.25"
+    type: 2
+    tag: EP.
+    order: 24
+    campaign_sub_name: CH.01;CH.02;CH.03;CH.04;CH.05;CH.06
+  }
+  {
+    id: 25
+    story_campaign_id: "-44"
+    name: Mirror Stage
+    chapter: "13.5"
+    type: 2
+    tag: EP.
+    order: 25
+    campaign_sub_name: CH.01 The Real;CH.02 The Imaginary;CH.03 The Symbolic;CH.04 Gaze
+  }
+  {
+    id: 26
+    story_campaign_id: "-48"
+    name: Poincaré Recurrence
+    chapter: "13.75"
+    type: 2
+    tag: EP.
+    order: 26
+    campaign_sub_name: CH.01 Entropic Reduction;CH.02 Reborn Starlight;CH.03 Recurrent Reversal;CH.04 Starfall;CH.05 Decline Into Darkness;CH.06 Chaotic Finale
+  }
+  {
+    id: 27
+    story_campaign_id: "-51"
+    name: Fixed Point
+    chapter: "13.8"
+    type: 2
+    tag: EP.
+    order: 27
+    campaign_sub_name: CH.01 Singularity;CH.02 Reflective Surface;CH.03 Riemann Surface;CH.04 Teichmuller Space;CH.∞ Deduction
+  }
+  {
+    id: 28
+    story_campaign_id: "-54"
+    name: Longitudinal Strain
+    chapter: "13.9"
+    type: 2
+    tag: EP.
+    order: 28
+    campaign_sub_name: Lyudmila;Maggie;Erma;Tareus;Baba Lyuba;Nikolai;Catherine;Dr. Eugene Rugosa;Pavel;Item
+  }
+  {
+    id: 29
+    story_campaign_id: "-58"
+    name: Slow Shock
+    chapter: "14"
+    type: 2
+    tag: EP.
+    order: 30
+    campaign_sub_name: CH.00;CH.01;CH.02;CH.03
+  }
+  {
+    id: 30
+    story_campaign_id: "-34"
+    name: Freaky Pandemic
+    chapter: "2020"
+    type: 3
+    tag: C.E.
+    order: 50
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 31
+    story_campaign_id: "-35"
+    name: A Snowy Night Capriccio
+    chapter: "2020"
+    type: 3
+    tag: C.E.
+    order: 51
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 32
+    story_campaign_id: "-37"
+    name: The Photo Studio Mystery
+    chapter: "2021"
+    type: 3
+    tag: C.E.
+    order: 52
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 33
+    story_campaign_id: "-49"
+    name: One Coin Short
+    chapter: "2022"
+    type: 3
+    tag: C.E.
+    order: 56
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 34
+    story_campaign_id: "-56"
+    name: Eclipses & Saros
+    chapter: "13.95"
+    type: 2
+    tag: EP.
+    order: 29
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 35
+    story_campaign_id: "-40"
+    name: Far Side of the Sea
+    chapter: "2020"
+    type: 3
+    tag: C.E.
+    order: 53
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 36
+    story_campaign_id: "-47"
+    name: Waves Wrangler
+    chapter: "2022"
+    type: 3
+    tag: C.E.
+    order: 55
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 37
+    story_campaign_id: "-68"
+    name: The Summer Garden of Forking Paths
+    chapter: "15.1"
+    type: 2
+    tag: EP.
+    order: 31
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 38
+    story_campaign_id: "-69"
+    name: Cartesian Theater
+    chapter: "15.2"
+    type: 2
+    tag: EP.
+    order: 32
+    campaign_sub_name: CH.01;CH.01+
+  }
+  {
+    id: 39
+    story_campaign_id: "-70"
+    name: Zero Charge
+    chapter: "15.3"
+    type: 2
+    tag: EP.
+    order: 33
+    campaign_sub_name: CH.01;CH.01+
+  }
+  {
+    id: 40
+    story_campaign_id: "-71"
+    name: Angular Gyrus
+    chapter: "15.4"
+    type: 2
+    tag: EP.
+    order: 34
+    campaign_sub_name: CH.01;CH.01+
+  }
+  {
+    id: 41
+    story_campaign_id: "-72"
+    name: Isolation Forest
+    chapter: "15.5"
+    type: 2
+    tag: EP.
+    order: 35
+    campaign_sub_name: CH.01;CH.01+
+  }
+  {
+    id: 42
+    story_campaign_id: "-74"
+    name: Convolutional Kernel
+    chapter: "15.6"
+    type: 2
+    tag: EP.
+    order: 36
+    campaign_sub_name: CH.01;CH.01+
+  }
+  {
+    id: 43
+    story_campaign_id: "-52"
+    name: Lycan Sanctuary
+    chapter: "2023"
+    type: 3
+    tag: C.E.
+    order: 58
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 44
+    story_campaign_id: "-61"
+    name: Lost in Thoughts
+    chapter: "2024"
+    type: 3
+    tag: C.E.
+    order: 60
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 45
+    story_campaign_id: "-62"
+    name: Permitted! Reloading...
+    chapter: "2025"
+    type: 3
+    tag: C.E.
+    order: 61
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 46
+    story_campaign_id: "-75"
+    name: Roche Limit
+    chapter: "15.7"
+    type: 2
+    tag: EP.
+    order: 37
+    campaign_sub_name: Day1 Night-The Death of Christ;Day1 Late Night-Disciple;Day2 Morning-Blood of God;Day2 Afternoon-Book of the Saints;Day2 Night-Last Supper;Day3 Morning-Easter;Singularity
+  }
+  {
+    id: 47
+    story_campaign_id: "-76"
+    name: Virtual Pair
+    chapter: "15.8"
+    type: 2
+    tag: EP.
+    order: 38
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 48
+    story_campaign_id: "-78"
+    name: Quantum Fluctuations
+    chapter: "15.9"
+    type: 2
+    tag: EP.
+    order: 39
+    campaign_sub_name: Scene 1 Memory Log;Scene 2 Adventure Log;Scene 3 Returner's Log
+  }
+  {
+    id: 49
+    story_campaign_id: "-42"
+    name: Butterfly in a Cocoon
+    chapter: "2021"
+    type: 3
+    tag: C.E.
+    order: 54
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 50
+    story_campaign_id: "-50"
+    name: Love Bakery
+    chapter: "2023"
+    type: 3
+    tag: C.E.
+    order: 57
+    campaign_sub_name: CH.01
+  }
+  {
+    id: 51
+    story_campaign_id: "-59"
+    name: Maze Guess
+    chapter: "2024"
+    type: 3
+    tag: C.E.
+    order: 59
+    campaign_sub_name: CH.01
+  }
+]
