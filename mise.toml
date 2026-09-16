@@ -1,0 +1,33 @@
+# mise config for gfStory-en
+#
+# Install all toolchain-managed dependencies:
+#   mise install
+#
+# Two dependencies cannot be provided by mise and need manual setup:
+#   - vgmstream:  run `mise run install-vgmstream` (downloads the CLI to ~/.local/bin)
+#   - libb2:      NOT required — the mise-built Python ships a bundled BLAKE2
+#                 implementation, so `hashlib.blake2b` works without the system lib.
+
+[tools]
+python = "3.12.13"        # pyproject.toml requires >=3.11,<3.13
+node = "22.23.2"
+pnpm = "9.15.9"
+pdm = "2.29.0"
+ffmpeg = "9.0.1"
+imagemagick = "7.1.2_31"   # provides the `magick` command used by the image unpacker
+"conda:pngquant" = "3.0.3"
+"conda:zip" = "3.0"
+
+[env]
+# lets the vgmstream task drop its binary somewhere on PATH
+_.path = ["~/.local/bin"]
+
+[tasks.install-vgmstream]
+description = "Download the vgmstream CLI (used by the audio unpacker) into ~/.local/bin"
+run = """
+mkdir -p ~/.local/bin
+wget -qO- https://github.com/vgmstream/vgmstream-releases/releases/download/nightly/vgmstream-linux-cli.tar.gz \
+  | tar zxf - -C ~/.local/bin --strip-components=1
+chmod +x ~/.local/bin/vgmstream
+echo "vgmstream installed to ~/.local/bin/vgmstream"
+"""

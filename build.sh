@@ -12,6 +12,7 @@ cd unpack
 pdm install
 source .venv/bin/activate
 pip install -r downloader/requirements.txt
+export TQDM_DISABLE=1
 
 echo -e "${h_open}Downloading resources...${h_close}"
 mkdir -p downloader/resdata
@@ -24,13 +25,18 @@ python downloader.py --downloadres 0 --abname
 
 echo -e "${h_open}Unpacking images...${h_close}"
 cd ..
+# Restore the committed formatted/ hjson set in the submodule. A previous run
+# (or the downloader) can regenerate these with an incomplete set, dropping the
+# campaign-to-chapter mappings. The fixed-data overlay below re-applies the two
+# corrected files on top, so the checkout must precede it.
+git -C gf-data-us checkout -- formatted/ || true
 cp -r fixed-data/* gf-data-us
 python tests/test_backgrounds.py
 python tests/test_characters.py
 
 echo -e "${h_open}Unpacking and converting audio files...${h_close}"
 python tests/test_audio.py
-reset -I
+reset -I || true
 
 echo -e "${h_open}Processing resources...${h_close}"
 python -m gfunpack downloader/output -o .
