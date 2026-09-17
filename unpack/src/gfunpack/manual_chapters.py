@@ -190,9 +190,6 @@ _extra_chapters: list[tuple[str, str, str, list]] = [
     ('-42', 'Butterfly in a Cocoon', '2020', _extra_stories_cocoon()),
     ('-50', 'Love Bakery', '2022', []),
     ('-52', 'Lycan Sanctuary', '2022', []),
-    ('-59', 'Maze Guess', '', []),
-    ('-61', 'Lost in Thoughts', '', []),
-    ('-62', 'Reloading!', '', []),
 
     ('-8', 'Operation Rabbit Hunt', 'BlazBlue x Guilty Gear collab', []),
     ('-14,-15', 'Only Master', 'Guns Girl Z collab', []),
@@ -831,11 +828,6 @@ def get_extra_anniversary_stories(destination: pathlib.Path):
 
 
 def fill_in_chapter_info(main: list[Chapter], events: list[Chapter]):
-    assert main[1].description == '0'
-    chpt_zero = main[1]
-    main.remove(chpt_zero)
-    assert main[4].description == '4'
-    main.insert(5, chpt_zero)
     mapping = {
         0: 'Seed',
         1: 'Awakening',
